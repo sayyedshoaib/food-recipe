@@ -1,12 +1,12 @@
 const express = require('express');
 const User = require('../model/userSchema');
 const bcrypt = require('bcryptjs');
-// const jwt = require('jsonwebtoken');
+
 const router = express.Router();
 const Authenticate = require("../middleware/authenticate");
 
 require("../db/conn")
-// router.use(express.json());
+
 
 router.get('/',(req,res) => {
     res.send('hello ')
@@ -67,12 +67,9 @@ router.post('/signin', async (req,res) =>{
         console.log(err)
     }
 })
-router.get("/about",Authenticate,(req,res)=>{
-    console.log('hello from about page')
-    res.send(req.rootUser)
-})
+
 router.get('/getData',Authenticate,(req,res)=>{
-    console.log('hello from about page')
+    console.log('hello')
     res.send(req.rootUser)
 })
 router.post('/contact',Authenticate, async(req,res)=>{

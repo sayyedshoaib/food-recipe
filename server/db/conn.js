@@ -1,7 +1,5 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-// const DB = 'mongodb+srv://shoaib_sayyed:Shoaib786@@cluster0.gb8wg.mongodb.net/MERNstack?retryWrites=true&w=majority'
-
 
  
 
