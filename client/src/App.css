@@ -1,0 +1,519 @@
+/* navbar css */
+
+.navbar-brand{
+    margin-left: 5%;
+    color: rgb(252, 89, 39);
+    /* color:#fff; */
+    font-weight: 400;
+}
+/* .navbar-brand:hover{
+} */
+.nav_items{
+   margin-right: 5%;
+}
+.nav_links{
+    color:#fff
+}
+
+/* About page css */
+.emp-profile{
+    background: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    min-height: 500px;
+    margin-top: 5.3rem;
+    padding: 2rem;
+}
+.form_content{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.profile_img{
+    width: 10rem;
+    height:10rem;
+    border: 4px solid rgba(60, 64, 67);
+    border-radius: 50%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: 0.6s;
+}
+.profile_work{
+    margin-top: 1.4rem;
+    padding:2px;
+    padding-left: 5px;
+}
+.profile_img:hover{
+    width:10.3rem;
+    height:10.3rem;
+    
+}
+.profile_work p{
+    font-size: large;
+    font-weight: 500;
+    color: rgb(43, 43, 87);
+    transition: 0.6s;
+
+}
+.profile_work p:hover{
+    font-size: 20px;
+    font-weight: 600;
+}
+.profile_work a{
+    padding-top: 1rem;
+    text-decoration: none;
+    color: rgba(60, 64, 67) ;
+    cursor: pointer;
+}
+.profile_work a:hover{
+    color: rgb(252, 89, 39);
+
+}
+.row_edit label{
+    font-weight: 400;
+    color: #000 ;
+}
+.profile_head{
+    padding-top: 1rem;
+}
+.profile_head h5{
+    font-size:25px;
+    font-weight: 500;
+    color: rgb(43, 43, 87);
+    transition: 0.6s;
+}
+.profile_head h5:hover{
+    font-size:26px;
+
+}
+.profile_head h6{
+    font-size:18px;
+    font-weight: 400;
+    color: rgb(43, 43, 87);
+}
+.profile_head p{
+    color: rgb(43, 43, 87);
+}
+.profile_head span{
+    font-size:16px;
+    color: rgb(250, 66, 10);
+}
+.profile_head button{
+    border:none;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(85, 170, 226);
+    font-size:17px;
+    font-weight: 400;
+    color: rgb(43, 43, 87);
+    list-style: none;
+    
+}
+.profile_head button:hover{
+    font-size:18px;
+}
+.profile_edit_btn{
+    border:none;
+    background-color: #fff;
+    font-size:17px;
+    font-weight: 400;
+    color: rgb(43, 43, 87);
+    transition: 0.6s;
+
+}
+.profile_edit_btn:hover{
+    font-size:18px;
+    color: rgb(250, 66, 10);
+    cursor: pointer;
+}
+
+/* contact page css */
+ .contact_form .row{
+    background: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    min-height: 500px;
+    margin-top: 4rem;
+    padding-bottom: 2.2rem;
+    /* border: 2px solid black; */
+    width: 100%;
+ }
+ /* .content_of_form{
+     margin-top: 8px;
+ } */
+ .content_of_form{
+     width: 80%;
+     margin: auto;
+ }
+.contact_form_name{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.contact_form_container{
+    font-size:25px;
+    max-width: 9.8rem;
+    font-weight: 700;
+    color: rgb(43, 43, 87);
+    padding-top: 2.2rem;
+    transition: 0.6s;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(43, 43, 87);
+
+}
+.contact_form_container:hover{
+    font-size:26px;
+}
+.text_field{
+    align-items: center;
+}
+.contact_form_text{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.contact_form_button{
+    width: 80%;
+}
+/* .contact_submit_button{
+    background-color: rgb(47, 23, 105);
+    border: 2px solid rgb(250, 66, 10);
+    font-size:17px;
+    font-weight: 400;
+    color: #fff;
+    font-size: ;
+} */
+
+#contact_form_name{
+    outline: none;
+    width:80%;
+    height: 2.7rem;
+    margin-right: 1rem;
+}
+
+#contact_form_email{
+    outline: none;
+    width:80%;
+    height: 2.7rem;
+    margin-right: 1rem;
+}
+#contact_form_phone{
+    outline: none;
+
+    width:80%;
+    height: 2.7rem;
+}
+.input_field{
+  border: none;
+  border-bottom:1px solid rgb(43, 43, 87);
+}
+.text_field{
+    border:1px solid rgb(43, 43, 87);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 0px 0px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    padding: 1.2rem;
+    color:rgb(43, 43, 87);
+    border-radius: 3px;
+}
+.contact_submit_button{
+    padding : 0.4rem;
+
+    min-height: 2.3rem;
+    max-width: 13rem;
+    background: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 0px 0px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    border: 1px solid rgb(250, 66, 10);
+    color: rgb(250, 66, 10);
+    cursor: pointer;
+    border-radius: 3px;
+}
+.contact_submit_button:hover{
+    background-color: rgb(252, 89, 39);
+    color: #fff;
+}
+
+
+
+/* Signup page css */
+.signup{
+    background: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    max-height: 620px;
+    margin-top: 4rem;
+    padding-bottom: 2.2rem;
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+.signup_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* border: 1px solid blue; */
+}
+.signup-form{
+    width: 40%;
+    margin-right: 7%;
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    padding-left: 2.8rem;
+}
+.signup-imge{
+    width: 40%;
+    margin-right: 5%;
+    /* margin-left: 5%; */
+    /* border: 1px solid red;    */
+}
+.signup-imge figure img{
+    width:90%;
+    height: 90%;
+}
+.form-title{
+    font-size:25px;
+    max-width: 9.8rem;
+    font-weight: 700;
+    color: rgb(43, 43, 87);
+    /* padding-left: 2.2rem; */
+    transition: 0.6s;
+    margin-bottom: 1rem;
+    margin-left: 6px;
+    /* border-bottom: 1px solid rgb(43, 43, 87); */
+}
+.form-title:hover{
+    font-size:26px;
+}
+.form-group{
+    padding : 0.4rem;
+}
+.form-group label{
+    padding-right: 6px;
+    color:rgb(43, 43, 87)
+}
+.form-group input{
+    padding-top: 0.3rem;
+    border: none;
+    border-bottom:1px solid rgb(43, 43, 87);
+    outline: none;
+    width: 80%;
+}
+.form-submit{
+    margin-top:0.9rem;
+    min-height: 2.3rem;
+    max-width: 10rem;
+    background: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 0px 0px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    border: 1px solid rgb(250, 66, 10);
+    color: rgb(250, 66, 10);
+    cursor: pointer;
+    border-radius: 3px;
+}
+.form-submit:hover{
+    background-color: rgb(252, 89, 39);
+    color: #fff;
+}
+.signup-image-link{
+    padding-top: 0.9rem;
+    color: rgb(43, 43, 87);
+    text-decoration: none;
+
+}
+.signup-image-link span{
+    color:rgb(43, 43, 87);
+}
+.signup-image-link:hover{
+    color: rgb(43, 43, 87);
+}
+.signup-image-link span:hover{
+    color: rgb(252, 89, 39);
+}
+
+/* Login page css */
+.signin{
+    background: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    min-height: 450px;
+    margin-top: 6rem;
+    padding-bottom: 2.2rem;
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.signin_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4.1rem;
+    padding-bottom: 4rem;
+    /* border: 1px solid blue; */
+}
+.signin-imge{
+    width: 40%;
+    margin-left: 12%;
+    /* border: 1px solid rgb(255, 60, 0); */
+}
+.signin-content{
+    width: 40%;
+    margin-right: 12%;
+    margin-left: 7%;
+    margin-top: 4%;
+    /* border: 1px solid red; */
+    padding-left: 2.8rem;
+}
+.signin-imge figure img{
+    width:90%;
+    height: 90%;
+}
+
+.signin-image-link{
+    padding-top: 0.9rem;
+    padding-left: 1rem;
+    color: rgb(43, 43, 87);
+    text-decoration: none;
+
+}
+.signin-image-link span{
+    color:rgb(43, 43, 87);
+}
+.signin-image-link:hover{
+    color: rgb(43, 43, 87);
+}
+.signin-image-link span:hover{
+    color: rgb(252, 89, 39);
+}
+.jumbotron {
+    background-color: #ffff;
+    color: rgb(43, 43, 87);
+    padding: 5% 0;
+    text-align: center;
+  }
+  
+.brand-icon {
+      font-size: 100px;
+  }
+@media screen and (max-width: 575px) {
+    .emp-profile{
+        width: 80%;
+        margin: auto;
+    }
+    .profile_img{
+        width: 7rem;
+        height:7rem;
+    }
+    .contact_form{
+        width: 80%;
+        margin: auto;
+    }
+    .contact_form_name{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact_form_text{
+        width: 80%;
+        margin: auto;
+    }
+    .contact_form_button{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #contact_form_name{
+        margin-right: 0rem;
+    }
+    #contact_form_email{
+        margin-right: 0rem;
+    }
+    .contact_form_container{
+        margin-left: 10%;
+    }
+    .signup{
+        width: 90%;
+        margin: 5%;
+    }
+    .signup-form{
+        width: 80%;
+        margin: auto;
+    }
+    .signup-imge{
+        width: 80%;
+        margin:auto;
+    }
+    .signup-image-link{
+        margin-left: 10%;
+    }
+   .signin{
+    width: 90%;
+    margin: 5%;
+   }
+   .signin-content{
+    width: 80%;
+    margin: auto;
+   }
+   .signin-imge{
+    width: 80%;
+    margin:auto;
+   }
+   .signin-image-link{
+    margin-left: 10%;
+}
+}
+@media screen and (max-width:830px){
+    .contact_form{
+        width: 80%;
+        margin: auto;
+    }
+    .signup-form{
+        width: 45%;
+    }
+    .signup-imge{
+        width: 40%;
+        margin-right: 5%;
+    }
+    .signin-content{
+        width: 45%;
+    }
+    .signin-imge{
+        width: 40%;
+        /* margin-left: 5%; */
+    }
+}
+@media screen and (max-width:700px) {
+    
+
+    .signup_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .signup-form{
+        width: 80%;
+        margin: auto;
+    }
+    .signup-imge{
+        width: 80%;
+        margin:auto;
+    }
+    .signin_page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .signin-content{
+        width: 80%;
+        margin: auto;
+    }
+    .signin-imge{
+        padding-top: 4%;
+        width: 80%;
+        margin:auto;
+    }
+}
+
+@media screen  and (max-width: 1100px){
+    .signup{
+        width: 80%;
+        margin: 10%;
+    }
+    .signin{
+        width: 80%;
+        margin: 10%;
+    }
+}
